@@ -43,13 +43,13 @@ Clone down Git Repo `git clone https://github.com/ivag/collect-characters.git`. 
  
 Install packages using NPM `npm install`
 
-Run project `npm run start"`
+Run project `npm run start`
 
 Run tests using Jest `npm run test`
 
 
 ### Tools & Technologies
-* Language: Typescript https://developer.mozilla.org/en-US/docs/Web/JavaScript
-* Environment: Node https://nodejs.org
-* Package Manager: NPM https://www.npmjs.com/
-* Test Suite: Jest https://facebook.github.io/jest/en/
+* Language: Typescript - https://www.typescriptlang.org/
+* Environment: Node - https://nodejs.org
+* Package Manager: NPM  -https://www.npmjs.com/
+* Test Suite: Jest - https://facebook.github.io/jest/en/
