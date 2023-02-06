@@ -39,8 +39,6 @@ Install [NPM and Node](https://nodejs.org/en/download/)
 
 Open Command Line Terminal:
 
-Create directory for files, browse to directory
-
 Clone down Git Repo `git clone https://github.com/ivag/collect-characters.git`. Browse to `collect-characters` folder.
  
 Install packages using NPM `npm install`
