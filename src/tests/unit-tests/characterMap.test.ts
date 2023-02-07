@@ -1,4 +1,4 @@
-import { Direction } from "../../enums";
+import { Direction } from "../../main/enums";
 import { Main } from "../../main/main";
 import { INPUT_STRING_1 } from "../data";
 

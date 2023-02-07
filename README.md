@@ -36,8 +36,7 @@ Expected result:
 
 ### Installation
 - Install [NPM and Node](https://nodejs.org/en/download/)
-- Open Command Line Terminal
-- Clone down Git Repo `git clone https://github.com/ivag/collect-characters.git`. Browse to `collect-characters` folder.
+- Clone down Git Repo `git clone https://github.com/ivag/collect-characters.git`.
 - Install packages using NPM `npm install`
 - Run project `npm run start`
 - Run tests using Jest `npm run test`

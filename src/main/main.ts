@@ -1,5 +1,5 @@
 import { CharacterMap } from "./characterMap";
-import { START, END } from "../constants";
+import { START, END } from "./constants";
 
 export class Main {
   public static createMap(input: string) {

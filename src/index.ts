@@ -1,4 +1,4 @@
-import { INPUT_STRING } from "./constants";
+import { INPUT_STRING } from "./main/constants";
 import { Main } from "./main/main";
 
 export const collectCharacters = (input: string) => {

@@ -1,7 +1,7 @@
-import { DIRECTIONS, ALL_SIGNS } from "../constants";
-import { Direction } from "../enums";
-import { Position, PositionDirection } from "../interfaces";
-import { charIsLetter } from "../utils";
+import { DIRECTIONS, ALL_SIGNS } from "./constants";
+import { Direction } from "./enums";
+import { Position, PositionDirection } from "./interfaces";
+import { charIsLetter } from "./utils";
 
 export class CharacterMap {
   private map: string[][];
