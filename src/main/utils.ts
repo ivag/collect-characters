@@ -1,5 +1,5 @@
 export function charIsLetter(char: string) {
-  if (typeof char !== "string") {
+  if (typeof char !== 'string') {
     return false;
   }
 

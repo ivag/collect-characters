@@ -1,11 +1,10 @@
 {
-  "name": "collect-characterscode",
-  "version": "0.0.0",
+  "name": "collect-characters",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "start": "ts-node --experimentalSpecifierResolution node --esm src/index.ts",
-    "build": "tsc",
     "test": "jest"
   },
   "dependencies": {

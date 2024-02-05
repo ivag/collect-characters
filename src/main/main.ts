@@ -1,11 +1,11 @@
-import { CharacterMap } from "./characterMap";
-import { START, END } from "./constants";
+import { CharacterMap } from './characterMap';
+import { START, END } from './constants';
 
 export class Main {
   public static createMap(input: string) {
-    if (!input) throw new Error("The input is empty");
+    if (!input) throw new Error('The input is empty');
 
-    let rows = input.split("\n");
+    let rows = input.split('\n');
     let columns = rows[0];
 
     let startingPosition: boolean = false;
@@ -20,7 +20,7 @@ export class Main {
       let inputRow = rows[rowIndex];
 
       if (columns.length !== inputRow.length) {
-        throw new Error("Not even row size");
+        throw new Error('Not even row size');
       }
 
       map[rowIndex] = [];
@@ -30,7 +30,7 @@ export class Main {
 
         if (character === START) {
           if (startingPosition)
-            throw new Error("The starting character was duplicated");
+            throw new Error('The starting character was duplicated');
 
           startingPosition = true;
           startingRowIndex = rowIndex;
@@ -43,8 +43,8 @@ export class Main {
       }
     }
 
-    if (!startingPosition) throw new Error("No starting character was found");
-    if (!endingPosition) throw new Error("No ending character was found");
+    if (!startingPosition) throw new Error('No starting character was found');
+    if (!endingPosition) throw new Error('No ending character was found');
 
     return new CharacterMap(
       map,

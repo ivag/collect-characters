@@ -1,5 +1,5 @@
-import { INPUT_STRING } from "./main/constants";
-import { Main } from "./main/main";
+import { Main } from './main/main';
+import { INPUT_STRING_1 } from './tests/data';
 
 export const collectCharacters = (input: string) => {
   const map = Main.createMap(input);
@@ -7,4 +7,4 @@ export const collectCharacters = (input: string) => {
   return `Letters ${path.letters} \nPath as characters ${path.path}`;
 };
 
-console.log(collectCharacters(INPUT_STRING));
+console.log(collectCharacters(INPUT_STRING_1));
